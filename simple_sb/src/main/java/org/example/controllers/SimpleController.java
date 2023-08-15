@@ -13,7 +13,7 @@ public class SimpleController {
     private Logger logger = Logger.getLogger(SimpleController.class);
 
     /** required = false - если параметры не переданы, то заполнит null, если true  - То 400 Bad Request */
-    @GetMapping
+    @GetMapping("/")
     public String helloPage(
             @RequestParam(value = "name", required = false) String name,
             @RequestParam(value = "surname", required = false) String surname
