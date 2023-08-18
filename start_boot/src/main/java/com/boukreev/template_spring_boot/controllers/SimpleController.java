@@ -13,6 +13,7 @@ public class SimpleController {
 
     @GetMapping("/")
     public String helloPage() {
+        System.out.println("Hello page working");
         return "hello";
     }
 }
