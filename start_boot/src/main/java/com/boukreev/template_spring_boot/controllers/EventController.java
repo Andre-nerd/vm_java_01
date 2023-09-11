@@ -21,10 +21,10 @@ public class EventController {
 
     private List<Event> createList(){
         List<Event> list = new ArrayList<>();
-        list.add(new Event(1,"13.10.2023","08:00","Форум триумф",""));
-        list.add(new Event(2,"13.10.2023","09:00","Форум триумф зал Б",""));
-        list.add(new Event(3,"13.10.2023","08:00","Зал П 302",""));
-        list.add(new Event(4,"13.10.2023","11:00","Зал Д 1010",""));
+        list.add(new Event(1,"13.10.2023","08:00","Р¤РѕСЂСѓРј С‚СЂРёСѓРјС„",""));
+        list.add(new Event(2,"13.10.2023","09:00","Р¤РѕСЂСѓРј С‚СЂРёСѓРјС„ Р·Р°Р» Р‘",""));
+        list.add(new Event(3,"13.10.2023","08:00","Р—Р°Р» Рџ 302",""));
+        list.add(new Event(4,"13.10.2023","11:00","Р—Р°Р» Р” 1010",""));
         return list;
     }
 }
