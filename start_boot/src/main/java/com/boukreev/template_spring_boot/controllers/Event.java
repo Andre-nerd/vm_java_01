@@ -17,13 +17,16 @@ public class Event {
     private String timeClose;
     private String place;
     private String description;
+    private String info;
 
-    public Event(int id, int type, String date, String time,String timeClose, String place, String description) {
+    public Event(int id, int type, String date, String time,String timeClose, String place, String description,String info) {
         this.id = id;
         this.type = type;
         this.date = date;
         this.time = time;
         this.place = place;
         this.description = description;
+        this.timeClose = timeClose;
+        this.info = info;
     }
 }
