@@ -6,5 +6,5 @@ import java.util.List;
 
 @Data
 public class EventResponse {
-    private List<Event> result;
+    private List<Event> events;
 }

@@ -15,7 +15,7 @@ public class EventController {
     public ResponseEntity<EventResponse> getEvents(){
         EventResponse response = new EventResponse();
         List<Event> list = createList();
-        response.setResult(list);
+        response.setEvents(list);
         return ResponseEntity.ok(response);
     }
 
