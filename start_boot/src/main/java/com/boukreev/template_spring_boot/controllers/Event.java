@@ -14,10 +14,11 @@ public class Event {
     private int type;
     private String date;
     private String time;
+    private String timeClose;
     private String place;
     private String description;
 
-    public Event(int id, int type, String date, String time, String place, String description) {
+    public Event(int id, int type, String date, String time,String timeClose, String place, String description) {
         this.id = id;
         this.type = type;
         this.date = date;
